@@ -3,6 +3,8 @@
 * {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    margin: 0px;
+    padding: 0px; 
 }
 
 body {
@@ -10,16 +12,17 @@ body {
 }
 
 .calculadora {
+    align-items: center; 
     background-color: whitesmoke;
     border: solid thin grey;
     border-radius: 15px;
     box-shadow: 10px 10px 10px gray;
+    display: flex;
     height: 620px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     width: 400px;
-    display: flex;
 }
 
 #resultado {
