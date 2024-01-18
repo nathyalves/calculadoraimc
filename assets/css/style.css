@@ -19,6 +19,7 @@ body {
     margin-right: auto;
     text-align: center;
     width: 400px;
+    display: flex;
 }
 
 #resultado {
